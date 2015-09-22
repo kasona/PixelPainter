@@ -1,0 +1,19 @@
+#container {
+  width: 100%;
+}
+
+#leftCol {
+  width: 30%;
+  float: left;
+}
+
+#rightCol {
+  width: 70%;
+  float: right;
+}
+
+#control {
+  float: right;
+  padding-top: 10cm;
+  border-top:  50cm;
+}

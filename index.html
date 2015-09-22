@@ -1,11 +1,25 @@
 <html>
   <head>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/PixelPainter.js"></script>
     <link href="css/PixelPainter.css" rel="stylesheet" media="screen" />
   </head>
   <body>
     <h1>Pixel Painter</h1>
-    <div id="pixelPainter"></div>
+
+    <div id='container'>
+      <div id='leftCol'>
+        <div id='colorPicker'></div>
+        <div id='controls'></div>
+      </div>
+
+      <div id='rightCol'>
+        <div id="pixelPainter"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/PixelPainter.js"></script>
+    <script src="js/eraseBut.js"></script>
+    <script src="js/colorPicker.js"></script>
+    <script src="js/clearBut.js"></script>
   </body>
 </html>
